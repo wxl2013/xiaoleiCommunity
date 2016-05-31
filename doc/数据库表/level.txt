@@ -1,0 +1,1 @@
+CREATE TABLE `level` (  `levelid` int(10) NOT NULL AUTO_INCREMENT COMMENT '用户级别',  `levelname` varchar(20) NOT NULL COMMENT '0管理员，1普通用户，2青铜用户，3白银用户，4黄金用户',  PRIMARY KEY (`levelid`)) ENGINE=InnoDB DEFAULT CHARSET=utf8
