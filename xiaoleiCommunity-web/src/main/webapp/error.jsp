@@ -6,6 +6,7 @@
   </head>
   
 <body>
-congratulations  register success!!!
+sorry  register fail!!!
+<a href="index.jsp"/>
 </body>
 </html>

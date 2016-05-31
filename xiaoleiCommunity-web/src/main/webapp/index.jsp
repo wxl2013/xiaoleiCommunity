@@ -6,9 +6,10 @@
   </head>
   
 <body>
-  <form action="login.html" method="post">
+  <form action="register.html" method="post">
     username: <input type="text" name="username"/><br/>
     password: <input type="password" name="password"/><br/>
+    email:    <input type="text" name="email">
     <input type="submit" value="submit"/>
   </form>
 </body>
