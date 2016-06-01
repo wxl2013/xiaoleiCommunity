@@ -6,11 +6,19 @@
   </head>
   
 <body>
+<h2>注册</h2><br/>
   <form action="register.html" method="post">
     username: <input type="text" name="username"/><br/>
     password: <input type="password" name="password"/><br/>
     email:    <input type="text" name="email">
     <input type="submit" value="submit"/>
+  </form>
+  <br/>
+    <h2>登陆</h2><br/>
+    <form action="login.html" method="post">
+    username: <input type="text" name="username"/><br/>
+    password: <input type="password" name="password"/><br/>
+    <input type="submit" value="login"/>
   </form>
 </body>
 </html>

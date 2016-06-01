@@ -6,7 +6,7 @@
   </head>
   
 <body>
-sorry  register fail!!!
-<a href="index.jsp"/>
+sorry  login error!
+<a href="index.jsp">返回首页</a>
 </body>
 </html>

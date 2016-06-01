@@ -6,6 +6,6 @@
   </head>
   
 <body>
-congratulations  register success!!!
+congratulations  login success!!!
 </body>
 </html>

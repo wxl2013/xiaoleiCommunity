@@ -1,5 +1,8 @@
 package com.java.xiaoleiCommunity.dao.impl;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -13,6 +16,14 @@ public class UserDaoImpl implements UserDao {
     
     public void insertUser(User user) {
        sqlSession.insert("com.java.xiaoleiCommunity.bean.User.insertUser", user);
+    }
+
+    public User validateUser(String username, String password) {
+        Map<String,Object> map = new HashMap<String,Object>();
+        map.put("username", username);
+        map.put("password", password);
+        User user = sqlSession.selectOne("com.java.xiaoleiCommunity.bean.User.getUserByNameAndPass", map);
+        return user;
     }
 
 }

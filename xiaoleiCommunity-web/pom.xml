@@ -45,6 +45,6 @@
    </dependency>
   </dependencies>
   <build>
-    <finalName>xiaoleiCommunity-web</finalName>
+    <finalName>xiaoleiCommunity</finalName>
   </build>
 </project>

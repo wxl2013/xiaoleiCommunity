@@ -15,4 +15,9 @@ public class UserServiceImpl implements UserService {
     public void insertUser(User user) {
         userDao.insertUser(user);
     }
+
+    public User validateUser(String username, String password) {
+        return userDao.validateUser(username, password);
+    }
+    
 }

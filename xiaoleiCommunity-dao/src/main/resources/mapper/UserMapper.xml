@@ -6,4 +6,7 @@
         insert into user(username,password,email,status,levelid) 
         values (#{username},#{password},#{email},#{status},#{levelId})  
     </insert>
+    <select id="getUserByNameAndPass" parameterType="Map" resultType="User">
+        select * from user where username=#{username} and password=#{password}
+    </select>
 </mapper>
